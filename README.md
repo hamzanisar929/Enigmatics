@@ -64,12 +64,14 @@ Enigmatics/
 │── package.json     # Project dependencies
 │── README.md        # Documentation
 
+---
 
 💡 Usage
 Open index.html in a browser.
 Click the button to see interactive behavior.
 Modify the styles or scripts to customize the project.
 
+---
 
 🤝 Contributing
 Contributions are welcome! To contribute:
@@ -80,10 +82,12 @@ Commit your changes (git commit -m 'Add YourFeature').
 Push to the branch (git push origin feature/YourFeature).
 Open a Pull Request.
 
+---
 
 📜 License
 This project is licensed under the MIT License.
 
+---
 
 🎉 Acknowledgements
 Special thanks to:
@@ -92,6 +96,8 @@ OpenAI for knowledge sharing.
 Tailwind CSS for modern styling.
 Vite for fast development.
 🔗 GitHub Repository: Enigmatics
+
+---
 
 🚀 Happy Coding!
 
