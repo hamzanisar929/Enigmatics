@@ -37,3 +37,30 @@ To set up the project locally, follow these steps:
 ```bash
 git clone https://github.com/hamzanisar929/Enigmatics.git
 cd Enigmatics
+
+
+2️⃣ Install Dependencies
+Ensure you have Node.js installed, then run:
+
+bash
+Copy
+Edit
+npm install
+3️⃣ Start the Development Server
+bash
+Copy
+Edit
+npm run dev
+The application will be accessible at http://localhost:5173
+
+Enigmatics/
+│── public/          # Static assets
+│── src/             # Source files
+│   ├── components/  # Reusable UI components
+│   ├── animations/  # Animation logic
+│   ├── styles/      # CSS & Tailwind styles
+│   ├── main.js      # Application entry point
+│── index.html       # Main HTML file
+│── package.json     # Project dependencies
+│── README.md        # Documentation
+
