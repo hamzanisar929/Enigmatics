@@ -64,55 +64,13 @@ Enigmatics/
 │── package.json     # Project dependencies
 │── README.md        # Documentation
 
-📜 Code Examples
-📌 HTML (index.html)
-html
-Copy
-Edit
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enigmatics</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Welcome to Enigmatics</h1>
-    <button id="animateBtn">Click Me</button>
-    <script src="main.js"></script>
-</body>
-</html>
-🎨 CSS (styles.css)
-css
-Copy
-Edit
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #282c36;
-    color: white;
-    padding: 20px;
-}
 
-button {
-    background-color: #61dafb;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-🎭 JavaScript (main.js)
-js
-Copy
-Edit
-document.getElementById("animateBtn").addEventListener("click", function() {
-    alert("Button Clicked!");
-});
 💡 Usage
 Open index.html in a browser.
 Click the button to see interactive behavior.
 Modify the styles or scripts to customize the project.
+
+
 🤝 Contributing
 Contributions are welcome! To contribute:
 
@@ -121,8 +79,11 @@ Create a new branch (git checkout -b feature/YourFeature).
 Commit your changes (git commit -m 'Add YourFeature').
 Push to the branch (git push origin feature/YourFeature).
 Open a Pull Request.
+
+
 📜 License
 This project is licensed under the MIT License.
+
 
 🎉 Acknowledgements
 Special thanks to:
@@ -134,13 +95,10 @@ Vite for fast development.
 
 🚀 Happy Coding!
 
-yaml
-Copy
-Edit
-
 ---
 
 ### 📝 Explanation:
+
 - This `README.md` includes HTML, CSS, and JavaScript examples.
 - It provides a structured overview of the project, installation guide, and usage instructions.
 - The **Code Examples** section makes it easy for developers to understand the project setup.
