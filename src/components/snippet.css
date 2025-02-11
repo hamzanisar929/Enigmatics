@@ -1,0 +1,17 @@
+@keyframes movingOutline {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+}
+
+.mockup-code {
+  position: relative;
+  overflow: hidden;
+  animation: movingOutline 9s infinite;
+}

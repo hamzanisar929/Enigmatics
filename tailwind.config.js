@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui";
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
 
@@ -74,6 +75,7 @@ export default {
     },
   },
   plugins: [
+    daisyui,
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({

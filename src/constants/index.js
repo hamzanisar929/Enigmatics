@@ -35,6 +35,13 @@ import {
   twitter,
 } from "../assets";
 
+import HTMLAnimations from "../components/design/htmlAnimations";
+import CSSAnimations from "../components/design/cssAnimations";
+import JSAnimations from "../components/design/jsAnimations";
+import REACTAnimations from "../components/design/reactAnimations";
+import NODEAnimations from "../components/design/nodeAnimations";
+import DBAnimations from "../components/design/dbAnimations";
+
 export const navigation = [
   {
     id: "0",
@@ -244,6 +251,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    animation: HTMLAnimations,
   },
   {
     id: "1",
@@ -253,6 +261,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    animation: CSSAnimations,
   },
   {
     id: "2",
@@ -261,6 +270,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    animation: JSAnimations,
   },
   {
     id: "3",
@@ -270,6 +280,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    animation: REACTAnimations,
   },
   {
     id: "4",
@@ -278,6 +289,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    animation: NODEAnimations,
   },
   {
     id: "5",
@@ -286,8 +298,106 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    animation: DBAnimations,
   },
 ];
+
+const snippets = [
+  {
+    id: 1,
+    title: "HTML",
+    animation: HTMLAnimations,
+    text: "HTML skeleton of the web, foundation of every webpage.",
+    code: [
+      { prefix: "1", content: "npm i daisyui", className: "" },
+      { prefix: "2", content: "installing...", className: "" },
+      {
+        prefix: "3",
+        content: "Error!",
+        className: "bg-warning text-warning-content",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "CSS",
+    animation: CSSAnimations,
+    text: "CSS the artist of the web, painting the canvas with colors,",
+    light: true,
+    code: [
+      { prefix: "1", content: "npm install tailwindcss", className: "" },
+      { prefix: "2", content: "npx tailwindcss init", className: "" },
+      {
+        prefix: "3",
+        content: "Success!",
+        className: "bg-success text-success-content",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "JavaScript",
+    animation: JSAnimations,
+    text: "JavaScript the heartbeat of interactivity, revive the web",
+    code: [
+      { prefix: "1", content: "npx create-react-app ", className: "" },
+      { prefix: "2", content: "cd my-app", className: "" },
+      {
+        prefix: "3",
+        content: "npm start",
+        className: "bg-info text-info-content",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "React",
+    animation: REACTAnimations,
+    text: "React revolutionizes UI development with reusable components",
+    light: true,
+    code: [
+      { prefix: "1", content: "git init", className: "" },
+      { prefix: "2", content: "git add .", className: "" },
+      {
+        prefix: "3",
+        content: "git commit -m 'Initial commit'",
+        className: "bg-warning text-warning-content",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Node js",
+    animation: NODEAnimations,
+    text: "Node.js brings JavaScript to the server single-threadedly",
+    code: [
+      { prefix: "1", content: "npm init -y", className: "" },
+      { prefix: "2", content: "npm install express", className: "" },
+      {
+        prefix: "3",
+        content: "node app.js",
+        className: "bg-success text-success-content",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Mongo DB",
+    animation: DBAnimations,
+    text: "MongoDB a flexible, NoSQL database designed for modern applications",
+    code: [
+      { prefix: "1", content: "npm install -g vercel", className: "" },
+      { prefix: "2", content: "vercel", className: "" },
+      {
+        prefix: "3",
+        content: "Deployed!",
+        className: "bg-info text-info-content",
+      },
+    ],
+  },
+];
+
+export default snippets;
 
 export const socials = [
   {

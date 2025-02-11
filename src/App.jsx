@@ -7,6 +7,9 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import Video from "./components/Video";
+// import Languages from "./components/Languages";
+import Snippets from "./components/Snippets";
 
 const App = () => {
   return (
@@ -19,7 +22,10 @@ const App = () => {
         <Services />
         <Pricing />
         <Roadmap />
+        <Snippets />
+        <Video />
         <Footer />
+        {/* <Languages /> */}
       </div>
 
       <ButtonGradient />
