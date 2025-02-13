@@ -1,5 +1,6 @@
 import Section from "./Section";
 import { socials } from "../constants";
+// import Linkedin from "./design/Linkedin";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           © {new Date().getFullYear()}. All rights reserved.
         </p>
 
-        <ul className="flex gap-5 flex-wrap">
+        <ul className="flex gap-5 flex-wrap items-center">
           {socials.map((item) => (
             <a
               key={item.id}
@@ -20,6 +21,11 @@ const Footer = () => {
               <img src={item.iconUrl} width={16} height={16} alt={item.title} />
             </a>
           ))}
+
+          {/* Adding LinkedIn component here */}
+          {/* <div className="flex items-center justify-center w-10 h-10">
+            <Linkedin />
+          </div> */}
         </ul>
       </div>
     </Section>
