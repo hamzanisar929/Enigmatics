@@ -167,7 +167,7 @@ function Heroui3() {
               controls
               autoPlay={true}
             >
-              <source src="../../../public/rage.mp4" type="video/mp4" />
+              <source src="../../../public/003course.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

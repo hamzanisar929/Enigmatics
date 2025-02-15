@@ -1,0 +1,8 @@
+iframe[src*="botpress"] {
+  max-height: 500px !important;
+  border-radius: 15px !important;
+}
+
+iframe[src*="botpress"] + div {
+  display: none !important;
+}
