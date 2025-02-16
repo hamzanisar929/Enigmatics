@@ -353,14 +353,14 @@ const snippets = [
     id: 4,
     title: "React",
     animation: REACTAnimations,
-    text: "React revolutionizes UI development with reusable components",
+    text: "React revolutionizes development with reusable components",
     light: true,
     code: [
       { prefix: "1", content: "git init", className: "" },
       { prefix: "2", content: "git add .", className: "" },
       {
         prefix: "3",
-        content: "git commit -m 'Initial commit'",
+        content: "git commit ",
         className: "bg-warning text-warning-content",
       },
     ],

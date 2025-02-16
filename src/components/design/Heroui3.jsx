@@ -167,7 +167,10 @@ function Heroui3() {
               controls
               autoPlay={true}
             >
-              <source src="../../../public/003course.mp4" type="video/mp4" />
+              <source
+                src="https://res.cloudinary.com/dssmfqqmt/video/upload/v1739706847/003course_koxq5n.mp4"
+                type="video/mp4"
+              />
             </video>
           </div>
         </div>
