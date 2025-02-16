@@ -118,7 +118,10 @@ function Heroui2() {
                 />
               </svg>
             </a>
-            <a className="flex items-center justify-center gap-x-2 codepen-button">
+            <a
+              className="flex items-center justify-center gap-x-2 codepen-button"
+              href="https://chat.whatsapp.com/Cma0IyKM1GE1l75CXjAM99"
+            >
               <span>Start Coding</span>
             </a>
             {/* <a

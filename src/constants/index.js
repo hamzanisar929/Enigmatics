@@ -211,7 +211,7 @@ export const pricing = [
   {
     id: "0",
     title: "Frontend",
-    description: "Asad Ullah Afzaal, Senior Frontend Developer.",
+    description: "Frontend Developement with Enigmatics.",
     price: "0",
     features: [
       "Personalized recommendations based on your preferences",
@@ -222,7 +222,7 @@ export const pricing = [
   {
     id: "1",
     title: "Backend",
-    description: "Zia Ullah Khan, priority support, HR.",
+    description: "Backend Developement with Enigmatics.",
     price: "0",
     features: [
       "An advanced support program for any complex quereis",
