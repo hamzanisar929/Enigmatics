@@ -39,7 +39,7 @@ const Hero = () => {
             Unlock the power of web development with Enigmatics. Elevate your
             skills with Enigmatics, the ultimate MERN stack training platform.
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://chat.whatsapp.com/Cma0IyKM1GE1l75CXjAM99" white>
             Get started
           </Button>
         </div>
